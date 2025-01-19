@@ -158,9 +158,42 @@ h3{
 }
 
 .logofooter{
-
     height: 100px;
     width: auto;
     border-radius: 50%;
     margin: 50px;
 }
+
+.imagenfondo{
+    width: 100%;
+    opacity: 0.65;
+}
+
+.formulario{
+    box-sizing: border-box;
+    width:400px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(255, 235, 205, 0.627);
+    border-radius: 20px;
+    
+}
+
+.input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+
+.seccionform{
+    background-image: url(/img/imagenfondo.jpeg);
+    background-size: 100%;
+    padding: 20px;
+
+}
+
