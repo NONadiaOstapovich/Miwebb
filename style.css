@@ -24,6 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 0px 30px #000000;
 
 }
 
@@ -116,7 +117,8 @@ body{
 }
 
 .titulos{
-    font-size: 25px;
+    font-size: 30px;
+    color: #6100b0;
     font-weight: bold;
     text-align: center;
     margin: 35px;
@@ -154,10 +156,10 @@ p{
 
 h3{
     margin-top: 0;
-    color: blanchedalmond;
+    color: #6100b0;
     text-align: center;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 35px;;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -169,13 +171,7 @@ h3{
     align-items: center;
     margin: 5%;
 }
-/*.redes {
-    padding: 30px;
-    font-style: italic;
-    font-size: 45px;
-    box-sizing: border-box;    
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}*/
+
 
 
 .logoredes{
@@ -264,4 +260,15 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
     transform: scale(3); /* Botón ligeramente más pequeño al hacer clic */
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Sombra más ligera */
+}
+
+.fondoinicio{
+    background-image: url(/img/imgfondo2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
