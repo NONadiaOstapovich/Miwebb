@@ -38,13 +38,6 @@ body{
 
 }
 
-.container{
-    margin: 5px;
-    display: flex;
-    justify-items: center;
-
-}
-
 .header .logo img:hover{
     transform: scale(1.5);
 }
