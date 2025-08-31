@@ -2,7 +2,7 @@
     flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
-
+    font-family: Roboto, sans-serif;
 }
 
 body{
@@ -12,7 +12,7 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .header{
@@ -65,9 +65,9 @@ body{
 }
 
 .header .nav-links a {
-    color: #000000;
+    color: #fff7f7;
     text-decoration: none;
-    font-size: 700;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,13 +96,11 @@ body{
 }
 
 .bienvenida{
-    background-color: hwb(294 33% 64% / 0.7);
+    background-color: hwb(292 83% 11% / 0.7);
     border-radius: 10px;
-
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
+    text-align: justify;
     box-sizing: border-box;
     margin: 10px;
     padding: 10px;
@@ -128,6 +126,7 @@ body{
     justify-content: center;
     background-color: rgba(202, 194, 208, 0.627);
     text-align: center;
+    
     padding: 10px;
     margin: 10px;
 }
@@ -221,6 +220,10 @@ h3{
     width: 50px;
     transition: all 1.5;
     box-shadow: 0px 0px 10px rgba(248, 248, 248, 0.89);
+
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
 .container-footer .section .redes a :hover{
@@ -233,6 +236,9 @@ h3{
     width: auto;
     border-radius: 50%;
     margin: 50px;
+    &:hover {
+        transform: scale(1.5);
+    }
 }
 
 div{
