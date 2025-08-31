@@ -7,7 +7,7 @@
 
 body{
 
-    background-color: rgba(173, 137, 208, 0.589);
+    background-color: rgba(75, 71, 80, 0.589);
     box-sizing: border-box;
     display: flex;
     margin: 0;
@@ -16,6 +16,11 @@ body{
 }
 
 .header{
+    top: 0;
+    left: 0;
+    height: 80px;
+    position: relative;
+    z-index: 1000;
     min-width: 360px;
     width: 100%;
     background-color: #19191972;
@@ -49,17 +54,18 @@ body{
     align-items: center;
     width: 100%;
     padding: 10px;
+    margin-right: 20px;
 } 
 
 .header .nav-links li {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    margin-right: 15px;
+    margin-right: 50px;
 }
 
 .header .nav-links a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 700;
     display: flex;
@@ -90,7 +96,7 @@ body{
 }
 
 .bienvenida{
-    background-color: hwb(293 69% 8% / 0.7);
+    background-color: hwb(294 33% 64% / 0.7);
     border-radius: 10px;
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -120,7 +126,7 @@ body{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 235, 205, 0.627);
+    background-color: rgba(202, 194, 208, 0.627);
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -128,22 +134,45 @@ body{
 
 .titulos{
     font-size: 30px;
-    color: #6100b0;
+    color: #000000;
     font-weight: bold;
     text-align: center;
     margin: 0px;
     padding: 10px;
 }
 
+.main{
+    margin-top: 50px; /* Espacio para el header fijo */
+    width: 100%;
+    min-width: 360px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.desarrollo{
+    background-color: #ffffff94;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 p{
     text-align: center;
     min-width: 150px;
     margin: 25px;    
+    text-shadow: 2px 2px 4px #f7f7f7;
 }
 
 .container-footer{
     width: 100%;
-    background-color: rgba(173, 137, 208, 0.589);
+    background-color: rgba(106, 98, 113, 0.589);
 }
 
 .section2{
@@ -166,11 +195,12 @@ p{
 
 h3{
     margin-top: 0;
-    color: #6100b0;
+    color: #040303;
     text-align: center;
     font-size: 35px;;
     font-weight: 700;
     font-style: italic;
+    text-shadow: 2px 2px 4px #f7f7f7;
 }
 
 .redes{
@@ -185,10 +215,12 @@ h3{
 
 
 .logoredes{
+    border-radius: 50%;
     margin: 40px;
     height: 50px;
     width: 50px;
     transition: all 1.5;
+    box-shadow: 0px 0px 10px rgba(248, 248, 248, 0.89);
 }
 
 .container-footer .section .redes a :hover{
@@ -274,9 +306,11 @@ input[type="submit"]:active {
 
 .fondoinicio{
     background-image: url(/img/imgfondo2.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.504);
+    background-blend-mode: overlay;
+    height: 100%;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
