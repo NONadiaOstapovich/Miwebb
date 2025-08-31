@@ -3,11 +3,12 @@
     padding: 0px;
     margin: 0px;
     font-family: Roboto, sans-serif;
+
 }
 
 body{
 
-    background-color: rgba(75, 71, 80, 0.589);
+    background-color: rgba(215, 208, 225, 0.811);
     box-sizing: border-box;
     display: flex;
     margin: 0;
@@ -23,7 +24,7 @@ body{
     z-index: 1000;
     min-width: 360px;
     width: 100%;
-    background-color: #19191972;
+    background-color: #8a878772;
     padding: 10px;
     text-align: center;
     display: flex;
@@ -138,6 +139,7 @@ body{
     text-align: center;
     margin: 0px;
     padding: 10px;
+    text-shadow: 2px 2px 4px #f7f7f7;
 }
 
 .main{
@@ -313,7 +315,7 @@ input[type="submit"]:active {
 .fondoinicio{
     background-image: url(/img/imgfondo2.jpg);
     background-size: 100%;
-    background-color: rgba(0, 0, 0, 0.504);
+    background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: overlay;
     height: 100%;
     width: 100%;
