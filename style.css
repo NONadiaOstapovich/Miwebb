@@ -22,7 +22,7 @@ body{
     height: 80px;
     position: relative;
     z-index: 1000;
-    min-width: 360px;
+    min-width: 260px;
     width: 100%;
     background-color: #8a878772;
     padding: 10px;
@@ -55,14 +55,15 @@ body{
     align-items: center;
     width: 100%;
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
+    min-width: 260px;
 } 
 
 .header .nav-links li {
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .header .nav-links a {
@@ -313,10 +314,23 @@ input[type="submit"]:active {
 }
 
 .fondoinicio{
-    background-image: url(/img/imgfondo2.jpg);
+    background-image: url(/img/webdesing.jpg);
     background-size: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: overlay;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.fondoinicio{
+    background-image: url(/img/webb.jpg);
+    background-size: 200%;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
     height: 100%;
     width: 100%;
     position: fixed;
