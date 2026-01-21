@@ -327,7 +327,7 @@ input[type="submit"]:active {
 }
 
 .fondoinicio{
-    background-image: url(/img/webb.jpg);
+    background-image: url(/img/imagenfondo.jpg);
     background-size: 200%;
     background-color: rgba(0, 0, 0, 0.3);
     background-position: center;
